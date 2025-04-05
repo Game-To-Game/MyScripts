@@ -6,6 +6,7 @@ using UnityEditor.SceneManagement;
 public class Player : MonoBehaviour
 {
     private int health = 10;
+    public int coinCount;
     public GameObject fireBall;
     public Transform shotpoint;
     public string sceneName;
